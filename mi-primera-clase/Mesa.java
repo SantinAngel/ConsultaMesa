@@ -7,10 +7,10 @@ public class Mesa {
     // En inventario
     private boolean disponible;
 
-    public Mesa(String marca ,int numeroDePatas,boolean disponibilidad) {
+    public Mesa(String marca ,int numeroDePatas) {
         fabricante = marca;
         numeroPatas = numeroDePatas;
-        disponible = disponibilidad;
+        disponible = true;
     }
     
     public String getfabricante(){
@@ -25,15 +25,15 @@ public class Mesa {
         return disponible;
     }
     
-       public void cambiarFabricante(String fabricador){
+       public void cambiarfabricante(String fabricador){
         fabricante = fabricador;    
     }
     
-    public void incrementarNumeroPatas(int patas){
+    public void incrementarnumeroPatas(int patas){
         numeroPatas = numeroPatas + patas;
     }
     
-    public void Disponibilidad(){
+    public void cambiardisponibilidad(){
         if (disponible == true){
             System.out.println("Disponible");
         }
