@@ -13,15 +13,15 @@ public class Mesa {
         disponible = true;
     }
     
-    public String getfabricante(){
+    public String getFabricante(){
         return fabricante;
     }
     
-     public int getnumeroPatas(){
+     public int getNumeroPatas(){
         return numeroPatas;
     }
     
-     public boolean getdisponible(){
+     public boolean getDisponible(){
         return disponible;
     }
     
