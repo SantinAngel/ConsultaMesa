@@ -25,20 +25,20 @@ public class Mesa {
         return disponible;
     }
     
-       public void cambiarfabricante(String fabricador){
+       public void cambiarFabricante(String fabricador){
         fabricante = fabricador;    
     }
     
-    public void incrementarnumeroPatas(int patas){
+    public void incrementarNumeroPatas(int patas){
         numeroPatas = numeroPatas + patas;
     }
     
-    public void cambiardisponibilidad(){
+    public void cambiarDisponibilidad(){
         if (disponible == true){
-            System.out.println("Disponible");
+            disponible = false;
         }
         else {
-            System.out.println("No disponible");
+            disponible = true;    
         } 
     }
     
